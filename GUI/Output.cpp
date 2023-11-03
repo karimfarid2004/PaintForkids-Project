@@ -136,12 +136,21 @@ int Output::getCrntPenWidth() const		//get current pen width
 {	return UI.PenWidth;	}
 ////////////////////////////////////////////////////////////////////////////////////////////
 //ADDED BY KARIM
-void Output::ClearToolBar() const
+void Output::ClearToolBar() const //REMOVES CURRENT TOOLBAR WITH BLANK
 {
 	pWind->SetPen(WHITE, 1);
 	pWind->SetBrush(WHITE);
 	pWind->DrawRectangle(0, 0, UI.width, UI.ToolBarHeight);
 }
+void Output::CreateFillColorBar() const //CREATES FILL COLOR TOOL BAR (WAITING FOR AREF)
+{
+	ClearToolBar();
+
+}
+void Output::CreateColorBar() const //CREATES COLOR TOOL BAR (WAITING FOR AREF)
+{
+	ClearToolBar();
+}	
 //======================================================================================//
 //								Figures Drawing Functions								//
 //======================================================================================//
