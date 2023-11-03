@@ -15,6 +15,8 @@ public:
 	void CreateStatusBar() const;	//create the status bar
 	void CreateFillColorsBar() const; //ADDED BY KARIM creates tool bar for fill color
 	void CreateColorBar() const; //ADDED BY KARIM creates tool bar for color
+	void CreateShapesBar() const; //ADDED BY KARIM creates tool bar for SHAPES
+
 
 	Input* CreateInput() const; //creates a pointer to the Input object	
 	void ClearStatusBar() const;	//Clears the status bar
