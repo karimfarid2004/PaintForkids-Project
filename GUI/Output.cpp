@@ -151,6 +151,10 @@ void Output::CreateColorBar() const //CREATES COLOR TOOL BAR (WAITING FOR AREF)
 {
 	ClearToolBar();
 }	
+void Output::CreateShapesBar() const //CREATES SHAPES TOOL BAR (WAITING FOR AREF)
+{
+	ClearToolBar();
+}	
 //======================================================================================//
 //								Figures Drawing Functions								//
 //======================================================================================//
