@@ -135,13 +135,6 @@ color Output::getCrntFillColor() const	//get current filling color
 int Output::getCrntPenWidth() const		//get current pen width
 {	return UI.PenWidth;	}
 ////////////////////////////////////////////////////////////////////////////////////////////
-//ADDED BY KARIM
-void Output::ClearToolBar() const
-{
-	pWind->SetPen(WHITE, 1);
-	pWind->SetBrush(WHITE);
-	pWind->DrawRectangle(0, 0, UI.width, UI.ToolBarHeight);
-}
 //======================================================================================//
 //								Figures Drawing Functions								//
 //======================================================================================//
